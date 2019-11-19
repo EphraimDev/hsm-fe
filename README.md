@@ -10,8 +10,10 @@ cd into the project folder and install the required dependencies
 npm install
 ```
 
+New Folder
+```
 Create a Pages folder in the root directory
-
+```
 
 Run server
 
