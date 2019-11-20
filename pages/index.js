@@ -2,7 +2,12 @@ import Layout from "../components/Layout";
 
 const Index = () => (
     <Layout>
-        <h1 className="display-1">Welcome</h1>
+        
+        <div>
+            <h1>Welcome</h1>
+            <p>Landing Page</p>
+        </div>
+        
     </Layout>
 )
 

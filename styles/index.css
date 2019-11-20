@@ -1,0 +1,20 @@
+.navbar {
+    background: #0C479D;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.btn {
+    background: #0C479D;
+}
+
+p > a {
+    color: #0C479D;
+    text-decoration: none;
+}
