@@ -32,7 +32,7 @@ const Layout = props => {
                  />
             </head>
             <Header />
-            <div className="mt-5">
+            <div className="container mt-5">
                 {props.children}
             </div>
         </div>

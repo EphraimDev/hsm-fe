@@ -28,9 +28,14 @@ p > a {
 }
 
 /*=============INDEX PAGE START===============*/
-.indexI{
-    margin-left: -10em;
-    overflow: hidden;
+.indexImage1{
+    margin-top: -6em;
+    margin-left: 3em;
+    width: 40em;
+}
+
+.indexImage2{
+    width: 45em;
 }
 
 .indexHero h1,
@@ -38,15 +43,6 @@ p > a {
 .indexHero p,
 .indexHero ul > li{
     color: #000825;
-}
-
-.indexHero h1{
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.indexHero h3{
-    font-weight: 1em;
 }
 
 .indexHero p{
