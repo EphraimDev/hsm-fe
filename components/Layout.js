@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 const Layout = props => {
     return (
-        <div>
+        <div className="body">
             <head>
                 <title>Hospital Management System</title>
                 <meta 
@@ -26,9 +26,13 @@ const Layout = props => {
 					href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
 					rel="stylesheet"
 				/>
+                <link
+                    rel="stylesheet" 
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css"
+                 />
             </head>
             <Header />
-            <div className="container mt-5">
+            <div className="mt-5">
                 {props.children}
             </div>
         </div>
