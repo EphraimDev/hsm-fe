@@ -1,5 +1,13 @@
+.body{
+    background-color: #E3E5EF;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
-    background: #0C479D;
+    background: #000825;
 }
 
 .navbar-brand {
@@ -11,10 +19,50 @@
 }
 
 .btn {
-    background: #0C479D;
+    background: #000825;
 }
 
 p > a {
-    color: #0C479D;
+    color: #000825;
     text-decoration: none;
 }
+
+/*=============INDEX PAGE START===============*/
+.indexImage1{
+    margin-top: -6em;
+    margin-left: 3em;
+    width: 40em;
+}
+
+.indexImage2{
+    width: 45em;
+}
+
+.indexHero h1,
+.indexHero h3,
+.indexHero p,
+.indexHero ul > li{
+    color: #000825;
+}
+
+.indexHero p{
+    line-height: 23px;
+    font-size: 1.1em;
+}
+
+.indexButton > a{
+    padding: 10px 25px;
+    background-color: #026622;
+    color: #F3F3F3;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.indexButton > a:hover{
+    text-decoration: none;
+    color: #F3F3F3;
+    background-color: #098539;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/*=============INDEX PAGE STOP===============*/

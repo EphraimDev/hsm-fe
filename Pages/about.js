@@ -1,11 +1,12 @@
 import Layout from "../components/Layout";
 
-export default function About() {
-    return (
+ const About = () => (
+    
         <Layout>
             <p>
                 This is the about Page.
             </p>
         </Layout>
-    );
-}
+)
+
+export default About;
