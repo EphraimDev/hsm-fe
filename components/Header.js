@@ -1,6 +1,7 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-const Navbar = () => (
+const Header = () => (
+    
     <nav className="navbar navbar-expand-md">
         <div className="container">
             <Link href="/"><a className="navbar-brand">HMS</a></Link>
@@ -15,25 +16,13 @@ const Navbar = () => (
                     <li className="nav-item">
                         <Link href="/docprofile"><a className="nav-link">Login</a></Link>
                     </li>
+                    <li className="nav-item">
+                        <Link href="/about"><a className="nav-link">About</a></Link>
+                    </li>
                 </ul>
             </div>
         </div>
-        <style jsx>
-            {`
-                .navbar {
-                    background: #0C479D;
-                }
-
-                .navbar-brand {
-                    color: #fff;
-                }
-
-                .nav-link {
-                    color: #fff;
-                }
-            `}
-        </style>
     </nav >
-)
+);
 
-export default Navbar;
+export default Header;
