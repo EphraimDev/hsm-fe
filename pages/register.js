@@ -1,7 +1,8 @@
-import Link from "next/link";
-import Layout from "../components/Layout";
+import Layout from '../components/Layout';
+import Link from 'next/link';
 
 const SignUp = () => (
+
     <Layout>
         <form className="mt-5">
             <div className="form-group row d-flex  justify-content-center">
@@ -38,19 +39,7 @@ const SignUp = () => (
         </form>
 
         <p className="text-center mt-4">Already a user, <Link href="/login"><a>login</a></Link>.</p>
-
-        <style jsx>
-            {`
-                .btn {
-                    background: #0C479D;
-                }
-
-                p a {
-                    color: #0C479D;
-                    text-decoration: none;
-                }
-            `}
-        </style>
+        
     </Layout>
 )
 
