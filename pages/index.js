@@ -1,4 +1,12 @@
 import Layout from "../components/Layout";
+<<<<<<< HEAD
+import Nav from "../components/Navbar";
+
+const Index = () => (
+    <Layout>
+        <Nav />
+        <h1 className="display-1">Welcome</h1>
+=======
 import Link from 'next/link';
 
 const Index = () => (
@@ -49,6 +57,7 @@ const Index = () => (
 
         </div>
         
+>>>>>>> 8edfb8e01a2a9e3a7e95da1f21b6b391f94ba07f
     </Layout>
 )
 
