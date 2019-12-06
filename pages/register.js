@@ -1,8 +1,10 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
+import Nav from "../components/Navbar";
 
 const SignUp = () => (
     <Layout>
+        <Nav />
         <form className="mt-5">
             <div className="form-group row d-flex  justify-content-center">
                 <label htmlFor="firstName" className="col-sm-2">First Name</label>

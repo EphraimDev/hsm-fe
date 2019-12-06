@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Navbar from "./Navbar";
 
 const Layout = ( props ) => (
     <div>
@@ -9,11 +8,25 @@ const Layout = ( props ) => (
                 integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
                 crossOrigin="anonymous">
             </link>
+            <link 
+                rel="stylesheet" 
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+            </link>
+            <link 
+                href="https://fonts.googleapis.com/css?family=Nunito&display=swap" 
+                rel="stylesheet">
+            </link>
         </Head>
-        <Navbar />
-        <div className="container">
+        <div className="container-fluid">
             { props.children }
         </div>
+        <style jsx>
+            {`
+                :global(body) {
+                    font-family: 'Nunito', sans-serif;
+                }
+            `}
+        </style>
     </div>    
 )
 
